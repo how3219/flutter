@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netfl/model/model_movie.dart';
+import 'package:netfl/widget/box_slider.dart';
 import 'package:netfl/widget/carousel_slider.dart';
 import 'package:netfl/widget/circle_slider.dart';
 
@@ -52,6 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
         CircleSlider(
           movies: movies,
         ),
+        BoxSlider(movies: movies)
       ],
     );
   }
